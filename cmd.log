@@ -1,0 +1,978 @@
+    1  nano mytex.txt 
+    2  sort -r -u -k2 amazon_reviews_us_Books_v1_02.tsv | head -n 5 | uniq -c
+    3  ls
+    4  head amazon_reviews_us_Books_v1_02.tsv 
+    5  sort -r -u -k2 amazon_reviews_us_Books_v1_02.tsv | head -n 5 | uniq -c | wc 
+    6  awk _F '{print $2}' amazon_reviews_us_Books_v1_02.tsv |sort -r -k2 | uniq -c 
+    7  awk _F: '{print $2}' amazon_reviews_us_Books_v1_02.tsv |sort -r -k2 | uniq -c 
+    8  clear
+    9  sort -r -u -k2 amazon_reviews_us_Books_v1_02.tsv | head -n 22 | uniq -c | wc 
+   10  sort -r -u -k2 amazon_reviews_us_Books_v1_02.tsv | head -n 22 | uniq -c
+   11  sort -r -k2 amazon_reviews_us_Books_v1_02.tsv | head -n 22 | uniq -c
+   12  sort -r -k2 amazon_reviews_us_Books_v1_02.tsv | head -n 22 | uniq -u
+   13  clear
+   14  sort -k2 -r amazon_reviews_us_Books_v1_02.tsv | uniq -c
+   15  sort -k2 -r amazon_reviews_us_Books_v1_02.tsv | uniq -c | head -n 5
+   16  awk -F: '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort 
+   17  awk -F: '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -rn| awk '{print $2}'
+   18  awk -F: '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -rn| awk '{print $2}'| tail -n 5
+   19  awk -F: '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -rn| awk '{print $2}'| tail -n 5 > mytext.txt
+   20  history
+   21  sort -r -u -k 2 amazon_reviews_us_Books_v1_02.tsv | head -n 4 | uniq -u
+   22  sort -r -u -k 2 amazon_reviews_us_Books_v1_02.tsv | head -n 4 | uniq -c
+   23  script ws3.txt
+   24  nano ws3.txt 
+   25  history
+   26  clear
+   27  history > cmds.log
+   28  ls
+   29  mkdir Worksheet3
+   30  cp ws3.txt Worksheet3/
+   31  cp cmd.log Worksheet3/
+   32  ls
+   33  cd Worksheet3
+   34  ls
+   35  c d..
+   36  cd 
+   37  cp cmds.log Worksheet
+   38  cp cmds.log Worksheet3
+   39  rm cmds.log 
+   40  rm cmd.log 
+   41  ls
+   42  cd Worksheet3/
+   43  ls
+   44  rm cmd.log 
+   45  ls
+   46  clear
+   47  git init
+   48  git add _A
+   49  git add -A
+   50  git commit -m "first commit"
+   51  git branch -M main
+   52  git remote add origin https://github.com/amarashifar/Worksheet3.git
+   53  git push -u origin master
+   54  git push origin master
+   55  git push
+   56  git push master
+   57  git push origin master
+   58  git remote add origin https://github.com/amarashifar/Worksheet3.git
+   59  git push -u origin main
+   60  clear
+   61  clear
+   62  sort -u -r -k 2 amazon_reviews_us_Books_v1_02.tsv | head -n 4 
+   63  sort -u -k 2 amazon_reviews_us_Books_v1_02.tsv | head -n 4 | uniq -u
+   64  sort -r -u -k 2 amazon_reviews_us_Books_v1_02.tsv | head -n 4 | uniq -u
+   65  script ws3.txt
+   66  history > cmd.log
+   67  vi cm
+   68  ls
+   69  vi cmd.log 
+   70  nano ws3.txt 
+   71  wc -help
+   72  wc --help
+   73  sort -u -k 10 amazon_reviews_us_Books_v1_02.tsv | head -n 4 | uniq -u
+   74  script ws3.txt
+   75  nano ws3.txt 
+   76  clear
+   77  history
+   78  script ws3.txt
+   79  nano ws3.txt 
+   80  history
+   81  script ws3.txt
+   82  nano ws3.txt 
+   83  clear
+   84  rm ws3.txt 
+   85  history
+   86  script ws3.txt
+   87  grep 53096589 amazon_reviews_us_Books_v1_02.tsv | wc
+   88  wc --help
+   89  ;s
+   90  ls
+   91  cd a1/
+   92  ls
+   93  cd ..
+   94  rm a1/
+   95  rm -r a1/
+   96  ls
+   97  cd Worksheet
+   98  ls
+   99  rm Worksheet
+  100  cd Testing/
+  101  ls
+  102  cd ..
+  103  rm -r Testing/
+  104  rm -r -f Testing/
+  105  ls
+  106  cd temp
+  107  rm temp
+  108  rm mytex.txt 
+  109  rm mytest.txt
+  110  rm mytext.txt 
+  111  ls
+  112  clear
+  113  cd ..
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd tmp/
+  118  ls
+  119  cd ../
+  120  clear
+  121  ls
+  122  cd
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd test
+  127  ls
+  128  ks
+  129  ls
+  130  clear
+  131  cd .
+  132  cd
+  133  clear
+  134  ls
+  135  cp ~test/A1/downloaded_tweets_extend.csv 
+  136  rm -r -f a1/
+  137  mkdir A2
+  138  cp ~test/A1/downloaded_tweets_extend.csv A2
+  139  ls
+  140  cd A2/
+  141  ls
+  142  head downloaded_tweets_extend.csv 
+  143  clear
+  144  cp ~test/A1/downloaded_tweets_extend_original.csv A2
+  145  ls
+  146  rm A2 
+  147  ls
+  148  cd
+  149  cp ~test/A1/downloaded_tweets_extend_original.csv A2
+  150  cd A1/ ls
+  151  ls ../A2
+  152  cd A2/
+  153  ls
+  154  clear
+  155  cd 
+  156  history
+  157  pwd
+  158  cd A2/
+  159  ls
+  160  clear
+  161  cd
+  162  cp ~test/A1/downloaded_tweets_extend_original_nolf.txt A2
+  163  cp ~test/A1/downloaded_tweets_extend_nolf.txt A2
+  164  cd A2/
+  165  ls
+  166  head downloaded_tweets_extend.t
+  167  head downloaded_tweets_extend_nolf.txt 
+  168  clear
+  169  cp ~test/A1/downloaded_tweets_extend_original_nolf.csv A2
+  170  cp ~test/A1/downloaded_tweets_extend_nolf.csv A2
+  171  ls
+  172  rm downloaded_tweets_extend_original
+  173  rm downloaded_tweets_extend_original.csv 
+  174  rm downloaded_tweets_extend.csv 
+  175  ls
+  176  cd A2
+  177  ls
+  178  rm A2
+  179  cd ..
+  180  ls
+  181  cp ~test/A1/downloaded_tweets_extend_original_nolf.csv A2
+  182  cp ~test/A1/downloaded_tweets_extend_nolf.csv A2
+  183  cut -f 6 ' ' downloaded_tweets_extend_original_nolf.txt > sortedInReply.txt
+  184  sort sortedInReply.txt | uniq -c | sort -n | tail -n 11 
+  185  clear
+  186  cd A2/
+  187  ls
+  188  cut -f 2 -d ' ' amazon_reviews_us_Books_v1_02.tsv 
+  189  cut -f 2 ''  amazon_reviews_us_Books_v1_02.tsv 
+  190  cut -f 2 ''  amazon_reviews_us_Books_v1_02.tsv > sortedID.csv
+  191  cut -f 2 ''  amazon_reviews_us_Books_v1_02.tsv 
+  192  cut -f 2 ' ' amazon_reviews_us_Books_v1_02.tsv 
+  193  cut -f 2 ' ' amazon_reviews_us_Books_v1_02.tsv > amazonID.txt
+  194  ls
+  195  head sortedID.csv 
+  196  sort amazonID.txt | uniq -c | tail -10
+  197  sort amazonID.txt | uniq -c | sort -n
+  198  sort amazonID.txt | uniq -c | sort -n  | tail -10
+  199  cut -f 2 ' ' amazon_reviews_us_Books_v1_02.tsv | sort uniq -c | sort -n | tail n -10
+  200  clear
+  201  cd A2/
+  202  ls
+  203  head downloaded_tweets_extend_original_nolf.csv
+  204  clear
+  205  cut -f 6 ' ' downloaded_tweets_extend_original_nolf.csv > in_reply.csv
+  206  ls
+  207  head in_reply.csv 
+  208  clear
+  209  ls
+  210  cut -f 7 ' ' downloaded_tweets_extend_original_nolf.csv > in_reply.csv
+  211  ;s
+  212  head in_reply.csv 
+  213  cut -f 6 '' downloaded_tweets_extend_original_nolf.csv > in
+  214  cut -f 6 '' downloaded_tweets_extend_original_nolf.csv > in.csv
+  215  ls
+  216  rm in
+  217  rm in_reply.csv 
+  218  head in.csv 
+  219  clear
+  220  head downloaded_tweets_extend_original_nolf.txt 
+  221  cut -f 6 ' ' downloaded_tweets_extend_original_nolf.txt 
+  222  cut -f 6 ' ' downloaded_tweets_extend_original_nolf.txt > in.txt
+  223  ls
+  224  rm in.csv 
+  225  sort in.txt | uniq -c | sort -n | tail -n 10
+  226   grep -v '^[[:space:]]*$' in.txt 
+  227  sort in.txt | uniq -c | sort -n | tail -n 10
+  228  sort in.txt | uniq -c | sort -n | tail -n 11
+  229   grep -v '^[[:space:]]*$' in.txt 
+  230   grep -v '^[[:space:]]*$' in.txt > in.txt 
+  231   grep -v '^[[:space:]]*$' in.txt > nospac.txt
+  232  sort nospac.txt | uniq c | sort -n
+  233  sort nospac.txt | uniq -c | sort -n | tail -n 10
+  234  sort nospac.txt | uniq -c | sort -n | tail 10
+  235  sort nospac.txt | uniq -c | sort -n | tail - 10
+  236  sort nospac.txt | uniq -c | sort -n | tail -n 10
+  237  head nospac.txt 
+  238  rm nospac.txt 
+  239  head in.txt 
+  240  clear
+  241  ls
+  242  cat in.txt 
+  243  head downloaded_tweets_extend_
+  244  head downloaded_tweets_extend_original_nolf.txt 
+  245  clear
+  246  history 
+  247  clear
+  248  script a1.txt
+  249  nano a1.txt 
+  250  ls
+  251  head in.txt 
+  252  rm in.txt 
+  253  head sortedInReply.txt 
+  254  cat sortedInReply.txt 
+  255  sed ‘/^$/d’ sortedInReply.txt 
+  256  cat sortedInReply.txt 
+  257  awk ‘{if(NF>0) {print $0}}’ sortedInReply.txt 
+  258  sort -k 6 downloaded_tweets_extend_original_nolf.txt | uniq -c | sort -n | tail -n 10
+  259  sort -k 6 downloaded_tweets_extend_original_nolf.txt | uniq -c | sort -n | head -n 10
+  260  cut -d, -f1-6
+  261  cut -d, -f1-6 downloaded_tweets_extend_original_nolf.txt > noRef.txt
+  262  cut -d, -f1-6, 9- downloaded_tweets_extend_original_nolf.txt > noRef.txt
+  263  head noRef.txt 
+  264  clear
+  265  ls
+  266  c;ear
+  267  ls
+  268  rm noRef.txt 
+  269  sort -k2  downloaded_tweets_extend_original_nolf.txt | uniq -c | sort -n | head -n 3
+  270  nana a1.txt 
+  271  nano a1.txt 
+  272  clear
+  273  ls
+  274  nano a1.txt 
+  275  sort -k2  downloaded_tweets_extend_original_nolf.txt | uniq -c | sort -n | head -n 3
+  276  sort -k2  downloaded_tweets_extend_original_nolf.txt | uniq -c | sort -n | tail -n 3
+  277  history
+  278  cut -f 2 ' ' downloaded_tweets_extend_original_nolf.csv > authors.txt
+  279  ls
+  280  sort downloaded_tweets_extend_original_nolf.txt | uniq -c | sort -n | tail -10
+  281  sort authors | uniq -c | sort -n | tail -10
+  282  sort authors.txt | uniq -c | sort -n | tail -10
+  283  head authors.txt 
+  284  rm authors.txt 
+  285  cut -f 2 ' ' downloaded_tweets_extend_original_nolf.txt > authors.txt
+  286  head authors.txt 
+  287  sort authors.txt | uniq -c | sort -n | tail -10
+  288  ls 
+  289  cd A2/
+  290  ls
+  291  cut -f 2 ' ' downloaded_tweets_extend_original_nolf.txt > repliedTheMost.txt
+  292  sort repliedTheMost.txt | uniq -c | sort -n | tail -n 10
+  293  cut -f 4 ' ' downloaded_tweets_extend_nolf.txt  | sort | uniq -c | sort -rn | head -n 10
+  294  cut -f 4 ' ' downloaded_tweets_extend_nolf.txt  | sort | uniq -c | sort -rn | head -n 11
+  295  cut -f 4 ' ' downloaded_tweets_extend_nolf.txt  | sort | uniq -c | sort -rn | head -n 31
+  296  mv --help
+  297  clear
+  298  cd A2/
+  299  ls
+  300  touch a2.txt
+  301  mv a1.txt a2.txt 
+  302  ls
+  303  cat s2
+  304  cat a2.txt 
+  305  nano a2.txt 
+  306  clear
+  307  nano a2.txt 
+  308  clear
+  309  historyu
+  310  history
+  311  clear
+  312  cut -f 2 ' ' downloaded_tweets_extend_original_nolf.txt > repliedTheMost.txt 
+  313  ls
+  314  history
+  315  sort repliedTheMost.txt | uniq -c | sort -n | tail -n 10
+  316  script a1.txt
+  317  nano a1.txt 
+  318  clear
+  319  cut -d ' ' -f4 downloaded_tweets_extend_nolf.txt | sort | uniq - c | sort -rn | head -n 10
+  320  head downloaded_tweets_extend_nolf.txt 
+  321  clear
+  322  cut -d ' ' -f4 downloaded_tweets_extend_nolf.txt | sort | uniq - c | sort -rn | head -n 10 > results.txt
+  323  nano results.txt 
+  324  rm results.txt 
+  325  hisotry
+  326  history 
+  327  cut -f 4 downloaded_tweets_extend_nolf.txt | sort | uniq -c | sort -rn | head -n 10
+  328  cut -f 4 downloaded_tweets_extend_nolf.txt | sort | uniq -c | sort -rn | tail -n 10
+  329  cut -f 4 downloaded_tweets_extend_nolf.txt | sort | uniq -c | sort -rn | head -n 11
+  330  clear
+  331  history
+  332  script a5.txt
+  333  clear
+  334  ls
+  335  cd A2/
+  336  ls
+  337  rm c 
+  338  history
+  339  cut -f 4 ' ' downloaded_tweets_extend_nolf.txt | sort | uniq -c | sort -rn | head-n 11
+  340  cut -f 4 ' ' downloaded_tweets_extend_nolf.txt  | sort | uniq -c | sort -rn | head -n 10
+  341  script a5.txt
+  342  nano a5.txt 
+  343  script a5.txt 
+  344  nano 15
+  345  nano a5.txt 
+  346  script a5.txt 
+  347  nano a5.txt 
+  348  clear
+  349  sort downloaded_tweets_extend.txt | uniq -c | sort -rn | head -n 10
+  350  ls
+  351  cd A2/
+  352  ;s
+  353  ls
+  354  clear
+  355  ls
+  356  nano quotedHastags.txt 
+  357  nano a5.txt 
+  358  cut -f 4 ' ' downloaded_tweets_extend_nolf.txt tr ',' '\n' | sort | uniq -c | sort -rn | head -n 31
+  359  cut -f 4 ' ' downloaded_tweets_extend_nolf.txt | tr ',' '\n' | sort | uniq -c | sort -rn | head -n 31
+  360  ls
+  361  cd A2/
+  362  ls
+  363  head a5.txt 
+  364  nano a5.txt 
+  365  cut -d, -f-4-5
+  366  cut -d, -f-4,5-5 > hashtag.txt
+  367  rm hashtag.txt 
+  368  cut -d, -f-4,5-5 downloaded_tweets_extend_nolf.txt > hashtag.txt
+  369  ls
+  370  head hashtag.txt 
+  371  clear
+  372  rm hashtag.txt 
+  373  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt | sort | uniq -c | sort -rn | head-n 11
+  374  cut -f 4 ' ' downloaded_tweets_extend_nolf.txt | sort | uniq -c | sort -rn | head-n 11
+  375  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt | sort | uniq -c | sort -rn | head -n 10
+  376  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt| grep "retweeted" | sort | uniq -c | sort -rn | head -n 10
+  377  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt| grep "replied_to" | sort | uniq -c | sort -rn | head -n 10
+  378  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt| grep "quoted" | sort | uniq -c | sort -rn | head -n 10
+  379   grep "quoted" downloaded_tweets_extend_nolf.txt | sort | uniq -c | sort -rn | head -n 10
+  380   grep "quoted" downloaded_tweets_extend_nolf.txt | sort | uniq -c | sort -rn | head -n 10 > quotedHastags.txt
+  381  nano quotedHastags.txt 
+  382  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt| grep "quoted" | sort | uniq -c | sort -rn | head -n 10
+  383  cd A2/
+  384  cut -f 4 ' ' downloaded_tweets_extend_nolf.txt | tr ',' '\n' | sort | uniq -c | sort -rn | head -n 31
+  385  cut -f 4-5 ' ' downloaded_tweets_extend_nolf.txt | tr ',' '\n' | sort -k 5  | uniq -c | sort -rn | head -n 31 | grep "quoted"
+  386  cd A2/
+  387  cut -f 4-5 ' ' downloaded_tweets_extend_nolf.txt | tr ',' '\n' | sort -k 5  | uniq -c | sort -rn | head -n 31 | grep "quoted"
+  388  cut -f 4-5 ' ' downloaded_tweets_extend_nolf.txt | tr ',' '\n' | sort   | uniq -c | sort -rn | head -n 31 | grep "quoted"
+  389  cut -f 4-5 ' ' downloaded_tweets_extend_nolf.txt | tr ',' '\n' | sort | uniq -c | sort -rn | head -n 31 | grep "quoted"
+  390  cut -f 4-5 ' ' downloaded_tweets_extend_nolf.txt| grep 'quoted' | tr ',' '\n' | sort | uniq -c | sort -rn | head -n 31 |  cut -f 4-5 ' ' downloaded_tweets_extend_nolf.txt| grep 'quoted' | tr ',' '\n' | sort | uniq -c | sort -rn | head -n 31  
+  391  cut -f 4-5 ' ' downloaded_tweets_extend_nolf.txt | grep 'quoted '| tr ',' '\n' | sort | uniq -c | sort -rn | head -n 31
+  392  cut -f 4-5 ' ' downloaded_tweets_extend_nolf.txt | grep 'quoted'| tr ',' '\n' | sort | uniq -c | sort -rn | head -n 31
+  393  cut -f 5  downloaded_tweets_extend_nolf.txt | grep 'quoted'| tr ',' '\n' | sort | uniq -c | sort -rn | head -n 31
+  394  cut -f 4-5 downloaded_tweets_extend_nolf.txt 
+  395  cut -f 4-5 downloaded_tweets_extend_nolf.txt > hashtagesWithDescriptions.txt 
+  396  grep 'quoted' hashtagesWithDescriptions.txt | tr ',' '\n' | sort | uniq -c | sort -nr | head -n 31
+  397  grep 'quoted' hashtagesWithDescriptions.txt 
+  398  grep 'quoted' hashtagesWithDescriptions.txt | sort | uniq -c | sort -nr | head -n 10 
+  399  grep 'quoted' hashtagesWithDescriptions.txt | sort | uniq -c | sort -nr | tr ',' '\n' | head -n 10 
+  400  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' > hashtagesWithDescriptions.txt 
+  401  grep 'quoted' hashtagesWithDescriptions.txt | sort | uniq -c | sort -nr | head -n 10 
+  402  cut -f 5  downloaded_tweets_extend_nolf.txt | grep 'quoted'| tr ',' '\n' | sort | uniq -c | sort -rn | head -n 31
+  403  end
+  404  end()
+  405  quit
+  406  exit
+  407  ls
+  408  cd A2/
+  409  history
+  410  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt| grep "quoted" | sort | uniq -c | sort -rn | head -n 10
+  411  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt |tr ',' '\n |  grep "quoted" | sort | uniq -c | sort -rn | head -n 10
+  412  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt |tr ',' '\n |  grep "quoted" | sort | uniq -c | sort -rn | head -n 10
+  413  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt | tr ',' '\n |  grep "quoted" | sort | uniq -c | sort -rn | head -n 10
+  414  history
+  415  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt | tr ',' '\n' | sort | uniq -c | sort -rn | head -n 31
+  416  cut -f 5 ' ' downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  417  clear
+  418  cd A2
+  419  la
+  420  ls
+  421  history 
+  422  script a5.txt
+  423  nano a5.txt 
+  424  awk '{print $4'} downloaded_tweets_extend_nolf.txt 
+  425  clear
+  426  history
+  427  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n'
+  428  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' > hashtagesWithDescriptions.txt
+  429  nano hashtagesWithDescriptions.txt 
+  430  head hashtagesWithDescriptions.txt 
+  431  history
+  432  sort -k2 hashtagesWithDescriptions.txt | grep "retweeted" | uniq -c | sort -rn | head -n 10
+  433  sort -k2 hashtagesWithDescriptions.txt | grep "quoted" | uniq -c | sort -rn | head -n 10
+  434  sort -k1 hashtagesWithDescriptions.txt | grep "quoted" | uniq -c | sort -rn | head -n 10
+  435  sort -k 2 hashtagesWithDescriptions.txt | grep "quoted" | uniq -c | sort -rn | head -n 10
+  436  sort -k 1 hashtagesWithDescriptions.txt | grep "quoted" | uniq -c | sort -rn | head -n 10
+  437  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  438  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort k 5 | uniq -c | sort -rn | head -n 31
+  439  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort -k 5 | uniq -c | sort -rn | head -n 31
+  440  cut -f 5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort -k 5 | uniq -c | sort -rn | head -n 31
+  441  cut -f 4 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort -k 5 | uniq -c | sort -rn | head -n 31
+  442  cut -f 4 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  443  cut -f 4 downloaded_tweets_extend_nolf.txt | grep 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  444  clear
+  445  sort -k 1 hashtagesWithDescriptions.txt | grep "quoted" | uniq -c | sort -rn | head -n 10
+  446  cut -f 4 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  447  cut -f 4 downloaded_tweets_extend_nolf.txt | tr ',' '\n' |  sort | uniq -c | sort -rn | head -n 31
+  448  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' |  sort | uniq -c | sort -rn | head -n 31
+  449  cut -f 4 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort -k 2 | uniq -c | sort -rn | head -n 31
+  450  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort -k 2 | uniq -c | sort -rn | head -n 31
+  451  cut -f 4 downloaded_tweets_extend_nolf.txt | tr ',' '\n' |  sort | uniq -c | sort -rn | head -n 31
+  452  cut -f 5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' |  sort | uniq -c | sort -rn | head -n 31
+  453  cut -f 5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' |  sort | uniq -c | sort -rn | head -n 31 | grep "retweeted"
+  454  cut -f 5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' |  sort | uniq -c | sort -rn | head -n 31 | grep "quoted"
+  455  cut -f 5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' |grep "quoted" |  sort | uniq -c | sort -rn | head -n 31 |
+  456  cut -f 5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' |grep "quoted" |  sort | uniq -c | sort -rn | head -n 31 
+  457  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort -k 2 | uniq -c | sort -rn | head -n 31
+  458  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  459  cut -f 4-5 downloaded_tweets_extend_nolf.txt |  grep 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  460  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  461  cd A2/
+  462  ls
+  463  history
+  464    984  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  465  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 
+  466  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr -d '\"' '' 
+  467  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr '\"' '' 
+  468  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr '\"' ' '  
+  469  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr -d ' ' 
+  470  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr -d ' ' | tr -d '\"'
+  471  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr -d ' ' | tr -d '\"' | sort | uniq -c | sort -nr | head -n 30 
+  472  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:][:lower:]| tr -d ' ' | tr -d '\"' | sort | uniq -c | sort -nr | head -n 30 
+  473  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' | sort | uniq -c | sort -nr | head -n 30 
+  474  grep "retweeted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' | sort | uniq -c | sort -nr | head -n 30 
+  475  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' | sort | uniq -c | sort -nr | head -n 30 
+  476  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| sort | uniq -c | sort -nr | head -n 30 
+  477  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| sort | uniq -c | sort -nr | tail -n 30 
+  478  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| sort | uniq -c | sort -nr
+  479  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr
+  480  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | hed -n 10
+  481  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30
+  482  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| sort | uniq -c | sort -nr | tail -n 30 
+  483  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30
+  484  grep -i "Ukrain!" downloaded_tweets_extend_nolf.txt 
+  485  egrep ! downloaded_tweets_extend_nolf.txt 
+  486  clear
+  487  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30
+  488  grep "retweeted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30
+  489  grep "replied_to" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30
+  490  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30
+  491  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr
+  492  cd A2/
+  493  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4
+  494  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr
+  495  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30
+  496  grep "retweeted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30
+  497  grep "retweeted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30 > myfile.txt
+  498  nano myfile.txt 
+  499  vi myfile.txt 
+  500  grep "retweeted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr > myfile.txt
+  501  vi myfile.txt 
+  502  quitr
+  503  quit
+  504  exit
+  505  ls
+  506  cd A2/
+  507  ls
+  508  nano a5.txt 
+  509  history
+  510  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep -i 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  511  cut -f 5 downloaded_tweets_extend_nolf.txt | grep "quoted" | sort | uniq -c | sort -rn | head -n 31
+  512  cut -f 4-5 downloaded_tweets_extend_nolf.txt | grep -i 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  513  clear
+  514  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep -i 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  515  cut -f 5 downloaded_tweets_extend_nolf.txt | grep "quoted" | sort | uniq -c | sort -rn | head -n 31
+  516  cut -f 5 downloaded_tweets_extend_nolf.txt| tr "," "\n" | grep "quoted" | sort | uniq -c | sort -rn | head -n 31  
+  517  cut -f 2,5 downloaded_tweets_extend_nolf.txt 
+  518  cut -f 2,5 downloaded_tweets_extend_nolf.txt | sort | uniq -c | sort -nr | head -n 10
+  519  cut -f 2,5 downloaded_tweets_extend_nolf.txt | grep "retweeted" | sort -k 5 | uniq -c | sort -nr | head -n 10
+  520  cit -f 5 downloaded_tweets_extend_nolf.txt | grep "retweeted" | sort | uniq -c | sort -nr | head -n 10
+  521  cut -f 5 downloaded_tweets_extend_nolf.txt | grep "retweeted" | sort | uniq -c | sort -nr | head -n 10
+  522  cut -f 2,5 downloaded_tweets_extend_nolf.txt > q3.txt
+  523  sort -k 2 q3.txt 
+  524  clear
+  525  sort -k 2 q3.txt | grep "retweeted" | uniq -c | sort -nr | head -n 10
+  526  cut -f 5 downloaded_tweets_extend_nolf.txt | grep "retweeted" | sort | uniq -c | sort -nr | head -n 10
+  527  history
+  528  sort -k 2 q3.txt | grep "retweeted" | uniq -c | sort -nr | head -n 10
+  529  cut -f 5 downloaded_tweets_extend_nolf.txt | grep "retweeted" | sort | uniq -c | sort -nr | head -n 10
+  530  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep -i 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  531  cut -f 5 downloaded_tweets_extend_nolf.txt | grep "quoted" | sort | uniq -c | sort -rn | head -n 31
+  532  clear
+  533  sort -k 2 q3.txt | grep "retweeted" | uniq -c | sort -nr | head -n 10
+  534  cut -f 5 downloaded_tweets_extend_nolf.txt | grep "retweeted" | sort | uniq -c | sort -nr | head -n 10
+  535  sort -k 5 downloaded_tweets_extend_nolf.txt  | grep "retweeted" | sort | uniq -c | sort -nr | head -n 1-
+  536  sort -k 5 downloaded_tweets_extend_nolf.txt  | grep "retweeted" | sort | uniq -c | sort -nr | head -n 10
+  537  clear
+  538  cut -f 5 downloaded_tweets_extend_nolf.txt | grep "retweeted" | sort | uniq -c | sort -nr | head -n 10
+  539  sort -k 2 q3.txt | grep "retweeted" | uniq -c | sort -nr | head -n 10
+  540  head q3.txt 
+  541  awk '{print $2}' q3.txt 
+  542  awk '{print $3}' q3.txt 
+  543  awk '{print $4}' q3.txt 
+  544  cut -f 5 downloaded_tweets_extend_nolf.txt | grep "retweeted" | sort | uniq -c | sort -nr | head -n 10
+  545  cut -f 2-2,5-5 downloaded_tweets_extend_nolf.txt > q3.txt
+  546  awk '{print $2}' q3.txt 
+  547  cut -f 5 downloaded_tweets_extend_nolf.txt | grep "retweeted" | sort | uniq -c | sort -nr | head -n 10
+  548  cut -f -d 5 downloaded_tweets_extend_nolf.txt | grep "retweeted" | sort | uniq -c | sort -nr | head -n 10
+  549  ls
+  550  rm *.csv
+  551  ls
+  552  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep -i 'quoted' | sort | uniq -c | sort -rn | head -n 31
+  553  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr "," "\n"
+  554  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr "," "\n" > sortedInReply.txt 
+  555  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr "," "\n" > test.txt
+  556  rm sortedInReply.txt 
+  557  tr '[:upper:]' '[:lower:]' < test.txt > output.txt
+  558  grep -i 'quoted' output.txt | sort | uniq -c | sort -rn | head -n 31
+  559  cut -f 5 downloaded_tweets_extend_nolf.txt | grep "quoted" | sort | uniq -c | sort -rn | head -n 31
+  560  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr """ "\n" | sort | uniq -c | sort -rn | head -n 31
+  561  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr "\"  " " | sort | uniq -c | sort -rn | head -n 31
+  562  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr "\"  " " | sort | uniq -c | sort -rn | head -n 31
+  563  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr "\" " " | sort | uniq -c
+  564  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4
+  565  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "\" " " 
+  566  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "\" "" 
+  567  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr "\" "\n " | sort | uniq -c
+  568  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" 
+  569  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr "\" "" 
+  570  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr "\" " "| 
+  571  grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr "\" " "
+  572  cut -f 4 downloaded_tweets_extend_nolf2.tsv | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 31
+  573   grep "quoted" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  574   grep "replied_to" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  575   grep "quoted" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  576  grep "quoted" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  577  grep "retweeted" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  578  grep "replied_to" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  579  grep "retweeted" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  580  grep "retweeted" downloaded_tweets_extend_nolf2.tsv | cut -f 2 | sort | uniq -c | sort -nr | head -n 30
+  581  cut -f 2 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -nr | head -n 10
+  582  cut -f 6 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -nr | head -n 11
+  583  clear
+  584  ls
+  585  cd A2/
+  586  history
+  587   grep "retweeted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr
+  588   grep "retweeted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr || head -n 30
+  589   grep "retweeted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30
+  590  cd 
+  591  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv A2
+  592  cd A2/
+  593  ls
+  594  rm authors.txt hashtagesWithDescriptions.txt myfile.txt output.txt q3.txt 
+  595  ls
+  596  rm quotedHastags.txt repliedTheMost.txt test.txt 
+  597  cd
+  598  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv A2
+  599  cd A2/
+  600  ls
+  601  clear
+  602   grep "retweeted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr || head -n 30
+  603   grep "quoted" downloaded_tweets_extend_nolf.txt | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30
+  604  grep "quoted" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | sort | uniq -c | sort -nr | head -n 30
+  605   grep "quoted" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'| tr -d "!"| sort | uniq -c | sort -nr | head -n 30
+  606   grep "quoted" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  607  ls
+  608  nano a5.txt 
+  609  grep "quoted" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  610  cut -f 4 downloaded_tweets_extend_nolf2.tsv | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  611  script a5.txt
+  612  nana a5.txt 
+  613  nano a5.txt 
+  614  c;ear
+  615  ls
+  616  rm downloaded_tweets_extend_nolf.txt downloaded_tweets_extend_original_nolf.txt 
+  617  clear
+  618  cut -f 4 downloaded_tweets_extend_nolf2.tsv | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 3
+  619  grep "quoted" downloaded_tweets_extend_nolf2.tsv | cut -f 4 | tr "," "\n" | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  620  clear
+  621  script a6.txt
+  622  nano a6.txt 
+  623  script a7.txt
+  624  nano a6.txt 
+  625  script a7.txt 
+  626  nano a7.txt 
+  627  clear
+  628  nano a6.txt 
+  629  nano a5.txt 
+  630  script a6.txt
+  631  script a8.txt
+  632  script a6.txt
+  633  script a7.txt
+  634  ls
+  635  nano a6.txt 
+  636  nano a7.txt 
+  637  script a6.txt
+  638  nano a6.txt 
+  639  nano a7.txt 
+  640  nano a8.txt 
+  641  clear
+  642  history
+  643   grep "retweeted" downloaded_tweets_extend_nolf2.tsv | cut -f 2 | sort | uniq -c | sort -nr | head -n 30
+  644   grep "retweeted" downloaded_tweets_extend_nolf2.tsv | cut -f 2, 5 | sort | uniq -c | sort -nr | head -n 30
+  645   grep "retweeted" downloaded_tweets_extend_nolf2.tsv | cut -f 2,5 | sort | uniq -c | sort -nr | head -n 30
+  646  script a3.txt
+  647  ls
+  648  git init
+  649  git add -A 
+  650  git commit -m "first commit" 
+  651  git remote add origin https://github.com/amarashifar/A2.git
+  652  git push -u origin master
+  653  ls
+  654  nano a2.txt 
+  655  script a0.txt
+  656  nano a0.txt 
+  657  nano a1.txt 
+  658  cut -f 2 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -nr 
+  659  cut -f 2 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -nr | head -n 10
+  660  script a1.txt
+  661  nano a1.txt 
+  662  nano a2.txt 
+  663  cut -f 6 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -nr | head -n 10
+  664  cut -f 6 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -nr | head -n 11
+  665  script a2.txt
+  666  nano a2.txt 
+  667  ls
+  668  exit
+  669  cd A2/
+  670  ls
+  671  cd a6
+  672  cat a6.txt 
+  673  nano a2.txt 
+  674  nano a1.txt 
+  675  ls
+  676  exit
+  677  vi .bashrc 
+  678  cat .bashrc 
+  679  clear
+  680  ls
+  681  rm myfile.csv 
+  682  rm sortedID.csv 
+  683  ls
+  684  cd A1/
+  685  ls -i
+  686  ls -ilstr
+  687  cd 
+  688  mkdir Worksheet4
+  689  cd Worksheet4/
+  690  ls
+  691  cd 
+  692  ls -latr
+  693  cat .bashrc 
+  694  nano .bashrc
+  695  vi .bashrc 
+  696  script ws4.txt
+  697  nano ws4.txt 
+  698  w
+  699  l
+  700  nano .bashrc 
+  701  l
+  702  nano .bashrc 
+  703  l
+  704  w
+  705  l
+  706  l 
+  707  nano .bashrc 
+  708  l
+  709  l 
+  710  nano .bashrc 
+  711  l
+  712  ls -latr
+  713  l
+  714  w
+  715  clear
+  716  nano .bashrc 
+  717  lll
+  718  ll
+  719  nano .bashrc 
+  720  l
+  721  ll
+  722  ls -latr
+  723  nano .bashrc 
+  724  w
+  725  l
+  726  ll
+  727  l
+  728  ls -latr
+  729  nano .bashrc 
+  730  l
+  731  I
+  732  w
+  733  exit
+  734  l
+  735  w
+  736  nano .bashrc 
+  737  w
+  738  clear
+  739  w
+  740  vi ~/.bashrc 
+  741  cat .bashrc 
+  742  vi ~/.bashrc 
+  743  cat .bashrc 
+  744  l
+  745  w
+  746  clear
+  747  ls
+  748  mkdir CUSTOMERS
+  749  clear
+  750  exit
+  751  grep 50732546 | cut -f 9 > customerID.txt
+  752  fgrep 50732546 | cut -f 9 > customerID.txt
+  753  fgrep 50732546 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > customerID.txt
+  754  fgrep 15865974 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 >> customerID.txt 
+  755  fgrep 30675785 amazon_reviews_us_Books_v1_02.tsv | cut -f >> customerID.txt 
+  756  fgrep 50732546 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > customerID.txt
+  757  fgrep 15865974 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 >> customerID.txt 
+  758  frep 30675785 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 >> customerID.txt 
+  759  fgrep 30675785 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 >> customerID.txt 
+  760  fgrep 30675785 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 >customerID.txt
+  761  fgrep 15865974 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 >> customerID.txt 
+  762  fgrep 12070100 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 >> customerID.txt 
+  763  nano ~/.bashrc 
+  764  l
+  765  w
+  766  nano ~/.bashrc 
+  767  wop
+  768  lpo
+  769  lop
+  770  nano ~/.bashrc 
+  771  nano ~/.bash_profile 
+  772  w
+  773  l
+  774  nano ~/.bash_profile 
+  775  wop
+  776  lop
+  777  nano ~/.bash_profile 
+  778  nano ~/.bashrc 
+  779  lop
+  780  wop
+  781  nano ~/.bashrc 
+  782  $PATH
+  783  lop
+  784  wop
+  785  shopt -s expand_aliases 
+  786  wop
+  787  lop
+  788  nano ~/.bashrc 
+  789  lop
+  790  wop
+  791  nano ~/.bashrc 
+  792  yaya
+  793  alias yaya
+  794  ls -latr
+  795  nano ~/.bashrc 
+  796  clear
+  797  ls
+  798  grep "31863302" | cut -f 9 
+  799  fgrep 31863302 | cut -f 9 | 
+  800  fgrep 31863302 | cut -f 9 
+  801  fgrep 31863302 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > score.txt
+  802  fgrep 31863302 amazon_reviews_us_Books_v1_02.tsv| cut -f 9 | fgrep 
+  803  script ws4Added.txt
+  804  rm ws4Added.txt 
+  805  nano .bashrc 
+  806  script works4.txt
+  807  nano works4.txt 
+  808  nano customerID.txt 
+  809  rm customerID.txt 
+  810  fgrep 50732546 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > customerID.txt
+  811  fgrep 15865974 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 >> customerID.txt 
+  812  fgrep 30675785 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 >> customerID.txt 
+  813  nano customerID.txt 
+  814  fgrep 30675785 amazon_reviews_us_Books_v1_02.tsv | cut -f 
+  815  fgrep 30675785 amazon_reviews_us_Books_v1_02.tsv | cut -f 9
+  816  fgrep 15865974 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 >> customerID.txt 
+  817  fgrep 15865974 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 
+  818  fgrep 50732546 amazon_reviews_us_Books_v1_02.tsv | cut -f 9
+  819  fgrep 30675785 amazon_reviews_us_Books_v1_02.tsv | cut -f 9
+  820  fgrep 15865974 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 
+  821  fgrep 12070100 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 
+  822  script wsh4firstpart.txt
+  823  nano wsh4firstpart.txt 
+  824  nano customerID.txt 
+  825  fgrep 30675785 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 30675785.txt
+  826  fgrep 15865974 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 15865974.txt
+  827  fgrep 12070100 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 12070100.txt
+  828  fgrep 802408559 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 802408559.txt
+  829  fgrep 964670534 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 964670534.txt
+  830  fgrep 785200282 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 785200282.txt
+  831  bc *.txt
+  832  vi .bashrc 
+  833  ls
+  834  cat wsh4firstpart.txt 
+  835  cat customerID.txt 
+  836  bc
+  837  clear
+  838  cat wsh4firstpart.txt 
+  839  script wsh4firstpart.txt
+  840  cat wsh4firstpart.txt 
+  841  head 30675785.txt 
+  842  head 12070100.txt 
+  843  head 15865974.txt 
+  844  bc
+  845  bc 12070100.txt 
+  846  bc 12070100.txt | bc 15865974.txt 
+  847  bc -q 12070100.txt 
+  848  bc 12070100.txt | bc 15865974.txt | bc 30675785.txt 
+  849  fgrep 1558746250 amazon_reviews_us_Books_v1_02.tsv | cut -f 9
+  850  fgrep 802408559 amazon_reviews_us_Books_v1_02.tsv | cut -f 9
+  851  fgrep 395551137 amazon_reviews_us_Books_v1_02.tsv |cut -f 9
+  852  fgrep 964670534 amazon_reviews_us_Books_v1_02.tsv | cut -f 9
+  853  fgrep 785200282 amazon_reviews_us_Books_v1_02.tsv | cut -f 9
+  854  script productID.txt
+  855  ls
+  856  rm amazonID.txt 
+  857  cat ws4.txt 
+  858  2R1;95;0c10;rgb:ffff/ffff/ffff11;rgb:1e1e/1e1e/1e1e
+  859  clear
+  860  2R1;95;0c10;rgb:ffff/ffff/ffff11;rgb:1e1e/1e1e/1e1e
+  861  cat ws4.txt 
+  862  2R1;95;0c10;rgb:ffff/ffff/ffff11;rgb:1e1e/1e1e/1e1eclear
+  863  rm ws4.txt 
+  864  clear
+  865  nano .bashrc 
+  866  l
+  867  ls
+  868  head score.txt 
+  869  rm score.txt 
+  870  cp productID.txt PRODUCTS/
+  871  ls
+  872  rm productID.txt 
+  873  cp ws3.txt Worksheet3/
+  874  rm wes3
+  875  rm ws3.txt 
+  876  cp wsh4firstpart.txt Worksheet4/
+  877  ls
+  878  head a5.txt 
+  879  rm a5.txt 
+  880  ls
+  881  clrar
+  882  clear
+  883  ls
+  884  cp customerID.txt Worksheet4/
+  885  rm customerID.txt 
+  886  cp works4.txt Worksheet4/
+  887  cp wsh4firstpart.txt Worksheet4/
+  888  ls
+  889  rm works4.txt wsh4firstpart.txt 
+  890  ls
+  891  ls *.txt
+  892  cd Worksheet4/
+  893  ls
+  894  clerar
+  895  clear
+  896  cd
+  897  script ws4.txt
+  898  ls
+  899  cd Worksheet4/
+  900  ls
+  901  head customerID.txt 
+  902  rm customerID.txt 
+  903  head works4.txt 
+  904  cat wsh4firstpart.txt 
+  905  clear
+  906  cd 
+  907  cp ws4.txt Worksheet4
+  908  cd Worksheet4/
+  909  ls
+  910  vi ~./bashrc
+  911  cd
+  912  vi .bashrc 
+  913  clear
+  914  script alias.txt
+  915  cd Worksheet4/
+  916  ls
+  917  head works4.txt 
+  918  cat works4.txt 
+  919  rm works4.txt 
+  920  ls
+  921  cat ws4.txt 
+  922  ls
+  923  ws4.txt >> wsh4firstpart.txt 
+  924  cat ws4.txt >> wsh4firstpart.txt 
+  925  ls
+  926  cat ws4.txt 
+  927  cat wsh4firstpart.txt 
+  928  rm ws4.txt 
+  929  cd
+  930  ls
+  931  cp alias.txt Worksheet4/
+  932  cd Worksheet4/
+  933  cp alias.txt wsh4firstpart.txt 
+  934  ls
+  935  head wsh4firstpart.txt 
+  936  cut -f 4-5 downloaded_tweets_extend_nolf.txt | tr ',' '\n' | grep -i 'quoted' | sort | uniq -c | sort -rn | head -n 31q:qa!
+  937  clear
+  938  ls
+  939  head wsh4firstpart.txt 
+  940  clear
+  941  ls
+  942  cd 
+  943  ls
+  944  cat ws4.txt 
+  945  history
+  946  fgrep 30675785 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 30675785.txt
+  947  fgrep 15865974 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 15865974.txt
+  948  fgrep 12070100 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 12070100.txt
+  949  fgrep 802408559 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 802408559.txt
+  950  fgrep 964670534 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 964670534.txt
+  951  fgrep 785200282 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 785200282.txt
+  952   850  fgrep 30675785 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 30675785.txt
+  953    851  fgrep 15865974 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 15865974.txt
+  954    852  fgrep 12070100 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 12070100.txt
+  955    853  fgrep 802408559 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 802408559.txt
+  956    854  fgrep 964670534 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 964670534.txt
+  957    855  fgrep 785200282 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > 785200282.txt
+  958  script fgrepnumber.txt
+  959  ls
+  960  cd Worksheet4/
+  961  ls
+  962  head alias.txt 
+  963  clear
+  964  ls
+  965  rm *.txt
+  966  cd 
+  967  ls
+  968  head ws4.txt 
+  969  cat ws4.txt >> fgrepnumber.txt 
+  970  ls
+  971  head fgrepnumber.txt 
+  972  cat fgrepnumber.txt 
+  973  clear
+  974  cp fgrepnumber.txt Worksheet4
+  975  Worksheet4
+  976  cd Worksheet4
+  977  ls
+  978  history > cmd.log
